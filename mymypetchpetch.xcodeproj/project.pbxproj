@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B26EF86E292D05DF00C08306 /* mymypetchpetchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EF86D292D05DF00C08306 /* mymypetchpetchApp.swift */; };
+		B26EF870292D05DF00C08306 /* PetchMy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EF86F292D05DF00C08306 /* PetchMy.swift */; };
+		B26EF872292D05E000C08306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26EF871292D05E000C08306 /* Assets.xcassets */; };
+		B26EF875292D05E000C08306 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26EF874292D05E000C08306 /* Preview Assets.xcassets */; };
+		B285A9D7292F740500647D77 /* LoveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285A9D6292F740500647D77 /* LoveType.swift */; };
+		B285A9D9292F9FAD00647D77 /* ApplicationMemu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285A9D8292F9FAD00647D77 /* ApplicationMemu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B26EF86A292D05DF00C08306 /* mymypetchpetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mymypetchpetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26EF86D292D05DF00C08306 /* mymypetchpetchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mymypetchpetchApp.swift; sourceTree = "<group>"; };
+		B26EF86F292D05DF00C08306 /* PetchMy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetchMy.swift; sourceTree = "<group>"; };
+		B26EF871292D05E000C08306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26EF874292D05E000C08306 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B26EF876292D05E000C08306 /* mymypetchpetch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mymypetchpetch.entitlements; sourceTree = "<group>"; };
+		B285A9D6292F740500647D77 /* LoveType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveType.swift; sourceTree = "<group>"; };
+		B285A9D8292F9FAD00647D77 /* ApplicationMemu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMemu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26EF867292D05DF00C08306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B26EF861292D05DE00C08306 = {
+			isa = PBXGroup;
+			children = (
+				B26EF86C292D05DF00C08306 /* mymypetchpetch */,
+				B26EF86B292D05DF00C08306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B26EF86B292D05DF00C08306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B26EF86A292D05DF00C08306 /* mymypetchpetch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B26EF86C292D05DF00C08306 /* mymypetchpetch */ = {
+			isa = PBXGroup;
+			children = (
+				B26EF86D292D05DF00C08306 /* mymypetchpetchApp.swift */,
+				B26EF86F292D05DF00C08306 /* PetchMy.swift */,
+				B285A9D8292F9FAD00647D77 /* ApplicationMemu.swift */,
+				B285A9D6292F740500647D77 /* LoveType.swift */,
+				B26EF871292D05E000C08306 /* Assets.xcassets */,
+				B26EF876292D05E000C08306 /* mymypetchpetch.entitlements */,
+				B26EF873292D05E000C08306 /* Preview Content */,
+			);
+			path = mymypetchpetch;
+			sourceTree = "<group>";
+		};
+		B26EF873292D05E000C08306 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B26EF874292D05E000C08306 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B26EF869292D05DF00C08306 /* mymypetchpetch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26EF879292D05E000C08306 /* Build configuration list for PBXNativeTarget "mymypetchpetch" */;
+			buildPhases = (
+				B26EF866292D05DF00C08306 /* Sources */,
+				B26EF867292D05DF00C08306 /* Frameworks */,
+				B26EF868292D05DF00C08306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mymypetchpetch;
+			productName = mymypetchpetch;
+			productReference = B26EF86A292D05DF00C08306 /* mymypetchpetch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B26EF862292D05DE00C08306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B26EF869292D05DF00C08306 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = B26EF865292D05DE00C08306 /* Build configuration list for PBXProject "mymypetchpetch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B26EF861292D05DE00C08306;
+			productRefGroup = B26EF86B292D05DF00C08306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B26EF869292D05DF00C08306 /* mymypetchpetch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26EF868292D05DF00C08306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26EF875292D05E000C08306 /* Preview Assets.xcassets in Resources */,
+				B26EF872292D05E000C08306 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26EF866292D05DF00C08306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26EF870292D05DF00C08306 /* PetchMy.swift in Sources */,
+				B285A9D9292F9FAD00647D77 /* ApplicationMemu.swift in Sources */,
+				B285A9D7292F740500647D77 /* LoveType.swift in Sources */,
+				B26EF86E292D05DF00C08306 /* mymypetchpetchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B26EF877292D05E000C08306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B26EF878292D05E000C08306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B26EF87A292D05E000C08306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mymypetchpetch/mymypetchpetch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mymypetchpetch/Preview Content\"";
+				DEVELOPMENT_TEAM = 9JD568YJA8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petch.mymypetchpetch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B26EF87B292D05E000C08306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mymypetchpetch/mymypetchpetch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mymypetchpetch/Preview Content\"";
+				DEVELOPMENT_TEAM = 9JD568YJA8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petch.mymypetchpetch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26EF865292D05DE00C08306 /* Build configuration list for PBXProject "mymypetchpetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26EF877292D05E000C08306 /* Debug */,
+				B26EF878292D05E000C08306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26EF879292D05E000C08306 /* Build configuration list for PBXNativeTarget "mymypetchpetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26EF87A292D05E000C08306 /* Debug */,
+				B26EF87B292D05E000C08306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B26EF862292D05DE00C08306 /* Project object */;
+}
